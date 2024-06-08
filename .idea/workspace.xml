@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="" />
+    <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="my 1st commit to new repo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -36,6 +43,19 @@
       <option name="presentableId" value="Default" />
       <updated>1717713869099</updated>
     </task>
+    <task id="LOCAL-00001" summary="my 1st commit to new repo">
+      <option name="closed" value="true" />
+      <created>1717794402490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717794402490</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my 1st commit to new repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="my 1st commit to new repo" />
   </component>
 </project>
