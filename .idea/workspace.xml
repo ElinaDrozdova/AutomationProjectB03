@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="my 2st commit to new repo">
+    <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="my 3rd commit to new repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day1_selenium_intro/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day1_selenium_intro/SeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717812038033</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="my 3rd commit to new repo">
+      <option name="closed" value="true" />
+      <created>1717815496683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717815496683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my 1st commit to new repo" />
     <MESSAGE value="my 2st commit to new repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="my 2st commit to new repo" />
+    <MESSAGE value="my 3rd commit to new repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="my 3rd commit to new repo" />
   </component>
 </project>
