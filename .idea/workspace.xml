@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="my 3rd commit to new repo">
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day2/NavigateToAmazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day2/SeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/AllLocatorsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/ChromeOptionsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/GoogleSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/T1_locators_getText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/T2_getText_getAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/WebDriverUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -20,28 +39,108 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ElinaDrozdova&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ElinaDrozdova/AutomationProjectB03.git&quot;,
+    &quot;accountId&quot;: &quot;74507231-a319-4073-a2fe-99d326beabbf&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2hWdefqSVRzBeH4I6DfcoP8u2Dr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AllLocatorsPractice.executor": "Run",
+    "Application.GoogleSearch.executor": "Run",
+    "Application.Locators.executor": "Run",
+    "Application.NavigateToAmazon.executor": "Run",
     "Application.SeleniumTest.executor": "Run",
+    "Application.T1_locators_getText.executor": "Run",
+    "Application.T2_getText_getAttribute.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "day__3",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Elina/IdeaProjects/AutomationProjectB03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="SeleniumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day1_selenium_intro.SeleniumTest" />
+  <component name="RunManager" selected="Application.T2_getText_getAttribute">
+    <configuration name="AllLocatorsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day3.AllLocatorsPractice" />
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day1_selenium_intro.*" />
+          <option name="PATTERN" value="io.loop.test.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day3.GoogleSearch" />
+      <module name="AutomationProjectB03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day3.Locators" />
+      <module name="AutomationProjectB03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_locators_getText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day3.T1_locators_getText" />
+      <module name="AutomationProjectB03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2_getText_getAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day3.T2_getText_getAttribute" />
+      <module name="AutomationProjectB03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,7 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SeleniumTest" />
+        <item itemvalue="Application.T2_getText_getAttribute" />
+        <item itemvalue="Application.T1_locators_getText" />
+        <item itemvalue="Application.AllLocatorsPractice" />
+        <item itemvalue="Application.Locators" />
+        <item itemvalue="Application.GoogleSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -63,6 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717713869099</updated>
+      <workItem from="1717940620850" duration="6414000" />
     </task>
     <task id="LOCAL-00001" summary="my 1st commit to new repo">
       <option name="closed" value="true" />
@@ -88,8 +192,27 @@
       <option name="project" value="LOCAL" />
       <updated>1717815496683</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="my 5rd commit to new repo">
+      <option name="closed" value="true" />
+      <created>1717940694266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717940694266</updated>
+    </task>
+    <task id="LOCAL-00005" summary="my 3rd commit to new repo">
+      <option name="closed" value="true" />
+      <created>1717940938894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717940938894</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my 1st commit to new repo" />
