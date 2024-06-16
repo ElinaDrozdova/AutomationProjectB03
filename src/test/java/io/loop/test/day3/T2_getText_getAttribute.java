@@ -20,6 +20,8 @@ public class T2_getText_getAttribute {
         driver.get("https://loopcamp.vercel.app/registration_form.html");
         WebElement headerForForm = driver.findElement(By.tagName("h2"));
         String actualHeaderForForm = headerForForm.getText();
+
+
         if(actualHeaderForForm.equals(LoopCampConstants.EXPECTED_HEADER_FOR_FORM)){
             System.out.println("Expected header for form: \"" + LoopCampConstants.EXPECTED_HEADER_FOR_FORM + "\", matches actual header: \"" + actualHeaderForForm + "\" => TEST PASSED");
         } else {
