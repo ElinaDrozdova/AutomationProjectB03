@@ -20,6 +20,12 @@ public class TOO_css_isDisplayed {
         WebElement forgetPasswordHeading = driver.findElement(By.cssSelector(" div[class='example']>h2"));
         System.out.println(forgetPasswordHeading.getText());
         System.out.println(forgetPasswordHeading.isDisplayed());
+
+        if(forgetPasswordHeading.isDisplayed()){
+            System.out.println("Test pass");
+        } else {
+            System.out.println("Test fail");
+        }
     }
 
 }
