@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 import static org.testng.Assert.assertEquals;
 
 public class T2_iframe extends TestBase
@@ -18,7 +20,7 @@ public class T2_iframe extends TestBase
     6- Verify header "An iFrame containing the TinyMCE WYSIWYG Editor" is displayed
      */
    @Test
-   public void iframeTest(){
+   public void iframeTest() {
        driver.get("https://loopcamp.vercel.app/iframe.html");
        WebElement iframe = driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']")); // with xpath
        driver.switchTo().frame(iframe);
@@ -33,13 +35,18 @@ public class T2_iframe extends TestBase
        System.out.println("textBox = " + header.getText());
 
 
-
 //        WebElement header = driver.findElement(By.xpath("//h3[contains(text(),'An iFrame')]"));
 //        System.out.println(header.getText());
 //        WebElement textBox = driver.findElement(By.xpath("//*[@id='tinymce']"));
 //        System.out.println("textBox = " + textBox);
 
-
+   }
+    @Test
+    public void nestedFrame(){
+        driver.get("https://loopcamp.vercel.app/nested-frames.html");
+        List<WebElement> iframes;
+        iframes = driver.findElements(By.xpath("//frame"));
+        System.out.println("iframes.size() = " + iframes.size());
 
    }
 }

@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="xpath (Day 4)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_findElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T000_staleElementException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T00_checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T0_radioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T1_testNG_intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T2_testNG_with_selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T3_simple_dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_dropdown_options.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T5_multi_dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T1_alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day5hw/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day5hw/Task1_herokuapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day5hw/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day5hw/Task3_login.java" afterDir="false" />
+    <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="day6">
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/OpenOnSecondScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day6hw/Day6_Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day6hw/Day6_Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AI.executor": "Run",
+    "Application.AddExtension.executor": "Run",
     "Application.AllLocatorsPractice.executor": "Run",
     "Application.GoogleSearch.executor": "Run",
     "Application.Locators.executor": "Run",
@@ -88,13 +78,25 @@
     "Application.Task3_DocuportPlaceholders.executor": "Run",
     "Maven.AutomationProjectB03 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Day6_Task1.executor": "Run",
+    "TestNG.Day6_Task1.handleAlerts.executor": "Run",
+    "TestNG.Day6_Task1.handleFirstAlert.executor": "Run",
+    "TestNG.Day6_Task1.handleFourthAlert.executor": "Run",
+    "TestNG.Day6_Task1.handleSecondAlert.executor": "Run",
+    "TestNG.Day6_Task1.handleThirdAlert.executor": "Run",
+    "TestNG.Day6_Task2.executor": "Run",
+    "TestNG.Day6_Task2.handleFirstAlert.executor": "Run",
+    "TestNG.Day6_Task2.handleIframes.executor": "Run",
+    "TestNG.OpenOnSecondScreen.executor": "Run",
     "TestNG.T1_alerts.confirmationAlert.executor": "Run",
     "TestNG.T1_alerts.executor": "Run",
     "TestNG.T1_alerts.promptAlert.executor": "Run",
     "TestNG.T1_testNG_intro.executor": "Run",
     "TestNG.T1_testNG_intro.test2.executor": "Run",
+    "TestNG.T2_iframe.nestedFrame.executor": "Run",
     "TestNG.T2_testNG_with_selenium.executor": "Run",
     "TestNG.T5_multi_dropdown.multiSelect.executor": "Run",
+    "TestNG.Task.executor": "Run",
     "TestNG.Task1.areDisplayed.executor": "Run",
     "TestNG.Task1.executor": "Run",
     "TestNG.Task1_herokuapp.executor": "Run",
@@ -116,17 +118,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.T1_alerts.promptAlert">
-    <configuration name="T1_alerts" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Day6_Task2">
+    <configuration name="Day6_Task2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="PATTERN" value="io.loop.test.practice.day6hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T1_alerts" />
+      <option name="PACKAGE_NAME" value="io.loop.test.practice.day6hw" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day6hw.Day6_Task2" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -134,17 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_alerts.confirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day6_Task2.handleFirstAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="PATTERN" value="io.loop.test.practice.day6hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T1_alerts" />
-      <option name="METHOD_NAME" value="confirmationAlert" />
+      <option name="PACKAGE_NAME" value="io.loop.test.practice.day6hw" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day6hw.Day6_Task2" />
+      <option name="METHOD_NAME" value="handleFirstAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,17 +154,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_alerts.promptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day6_Task2.handleIframes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="PATTERN" value="io.loop.test.practice.day6hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T1_alerts" />
-      <option name="METHOD_NAME" value="promptAlert" />
+      <option name="PACKAGE_NAME" value="io.loop.test.practice.day6hw" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day6hw.Day6_Task2" />
+      <option name="METHOD_NAME" value="handleIframes" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -170,52 +172,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T5_multi_dropdown.multiSelect" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenOnSecondScreen" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T5_multi_dropdown" />
-      <option name="METHOD_NAME" value="multiSelect" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_herokuapp.testForDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.practice.day5hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.practice.day5hw" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day5hw.Task1_herokuapp" />
-      <option name="METHOD_NAME" value="testForDropdown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.practice.day5hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.practice.day5hw" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day5hw.Task3_login" />
+      <option name="PACKAGE_NAME" value="io.loop.test.base" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.base.OpenOnSecondScreen" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -223,17 +189,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_login.testForDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_iframe.nestedFrame" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.practice.day5hw.*" />
+          <option name="PATTERN" value="io.loop.test.day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.practice.day5hw" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day5hw.Task3_login" />
-      <option name="METHOD_NAME" value="testForDropdown" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T2_iframe" />
+      <option name="METHOD_NAME" value="nestedFrame" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -243,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T1_alerts.promptAlert" />
-        <item itemvalue="TestNG.T1_alerts.confirmationAlert" />
-        <item itemvalue="TestNG.T1_alerts" />
-        <item itemvalue="TestNG.T5_multi_dropdown.multiSelect" />
-        <item itemvalue="TestNG.Task1_herokuapp.testForDropdown" />
+        <item itemvalue="TestNG.Day6_Task2" />
+        <item itemvalue="TestNG.Day6_Task2.handleIframes" />
+        <item itemvalue="TestNG.Day6_Task2.handleFirstAlert" />
+        <item itemvalue="TestNG.OpenOnSecondScreen" />
+        <item itemvalue="TestNG.T2_iframe.nestedFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718564694332</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="day6">
+      <option name="closed" value="true" />
+      <created>1719773045845</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719773045845</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +313,7 @@
     <MESSAGE value="my 3rd commit to new repo" />
     <MESSAGE value="locators and others (Day 3)" />
     <MESSAGE value="xpath (Day 4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="xpath (Day 4)" />
+    <MESSAGE value="day6" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6" />
   </component>
 </project>
