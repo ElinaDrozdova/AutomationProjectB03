@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="day6">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/OpenOnSecondScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day6hw/Day6_Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day6hw/Day6_Task2.java" afterDir="false" />
+    <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="day6+hw">
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T00_login_docuport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T0_iframe_practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T1_window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T2_window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T3_webTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day7hw/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day7hw/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day7hw/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day7hw/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportWebTableUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,80 +62,88 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AI.executor": "Run",
-    "Application.AddExtension.executor": "Run",
-    "Application.AllLocatorsPractice.executor": "Run",
-    "Application.GoogleSearch.executor": "Run",
-    "Application.Locators.executor": "Run",
-    "Application.NavigateToAmazon.executor": "Run",
-    "Application.SeleniumTest.executor": "Run",
-    "Application.T000_staleElementException.executor": "Run",
-    "Application.T000_xpath_getText.executor": "Run",
-    "Application.T1_findElements.executor": "Run",
-    "Application.T1_locators_getText.executor": "Run",
-    "Application.T2_getText_getAttribute.executor": "Run",
-    "Application.T3_getAttribute_css.executor": "Run",
-    "Application.TOO_css_isDisplayed.executor": "Run",
-    "Application.TO_forget_password.executor": "Run",
-    "Application.Task1.executor": "Run",
-    "Application.Task2_Docuport.executor": "Run",
-    "Application.Task2_Etsy.executor": "Run",
-    "Application.Task3_DocuportPlaceholders.executor": "Run",
-    "Maven.AutomationProjectB03 [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.Day6_Task1.executor": "Run",
-    "TestNG.Day6_Task1.handleAlerts.executor": "Run",
-    "TestNG.Day6_Task1.handleFirstAlert.executor": "Run",
-    "TestNG.Day6_Task1.handleFourthAlert.executor": "Run",
-    "TestNG.Day6_Task1.handleSecondAlert.executor": "Run",
-    "TestNG.Day6_Task1.handleThirdAlert.executor": "Run",
-    "TestNG.Day6_Task2.executor": "Run",
-    "TestNG.Day6_Task2.handleFirstAlert.executor": "Run",
-    "TestNG.Day6_Task2.handleIframes.executor": "Run",
-    "TestNG.OpenOnSecondScreen.executor": "Run",
-    "TestNG.T1_alerts.confirmationAlert.executor": "Run",
-    "TestNG.T1_alerts.executor": "Run",
-    "TestNG.T1_alerts.promptAlert.executor": "Run",
-    "TestNG.T1_testNG_intro.executor": "Run",
-    "TestNG.T1_testNG_intro.test2.executor": "Run",
-    "TestNG.T2_iframe.nestedFrame.executor": "Run",
-    "TestNG.T2_testNG_with_selenium.executor": "Run",
-    "TestNG.T5_multi_dropdown.multiSelect.executor": "Run",
-    "TestNG.Task.executor": "Run",
-    "TestNG.Task1.areDisplayed.executor": "Run",
-    "TestNG.Task1.executor": "Run",
-    "TestNG.Task1_herokuapp.executor": "Run",
-    "TestNG.Task1_herokuapp.testForDropdown.executor": "Run",
-    "TestNG.Task2.executor": "Run",
-    "TestNG.Task2.logInFunctionality.executor": "Run",
-    "TestNG.Task3_login.executor": "Run",
-    "TestNG.Task3_login.testForDropdown.executor": "Run",
-    "TestNG.Test111.executor": "Run",
-    "TestNG.Test111.testForDropdown.executor": "Run",
-    "git-widget-placeholder": "day__3",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elina/IdeaProjects/AutomationProjectB03",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddExtension.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AllLocatorsPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GoogleSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Locators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NavigateToAmazon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeleniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T000_staleElementException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T000_xpath_getText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T1_findElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T1_locators_getText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T2_getText_getAttribute.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T3_getAttribute_css.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TOO_css_isDisplayed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TO_forget_password.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task2_Docuport.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task2_Etsy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task3_DocuportPlaceholders.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.AutomationProjectB03 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.Day6_Task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Day6_Task1.handleAlerts.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Day6_Task1.handleFirstAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Day6_Task1.handleFourthAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Day6_Task1.handleSecondAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Day6_Task1.handleThirdAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Day6_Task2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Day6_Task2.handleFirstAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Day6_Task2.handleIframes.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OpenOnSecondScreen.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.left.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_alerts.confirmationAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_alerts.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_alerts.promptAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_testNG_intro.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_testNG_intro.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_iframe.nestedFrame.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_testNG_with_selenium.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_webTables.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T5_multi_dropdown.multiSelect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.areDisplayed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.left.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_herokuapp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_herokuapp.testForDropdown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.logInFunctionality.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.test_webTables.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.multipleWindowsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3_login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3_login.testForDropdown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task4.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task4.test_webTablePizzaOrder.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test111.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test111.testForDropdown.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;day__7&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Elina/IdeaProjects/AutomationProjectB03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.Day6_Task2">
-    <configuration name="Day6_Task2" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.Task4.test_webTablePizzaOrder">
+    <configuration name="T3_webTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.practice.day6hw.*" />
+          <option name="PATTERN" value="io.loop.test.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.practice.day6hw" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day6hw.Day6_Task2" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_webTables" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,52 +151,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6_Task2.handleFirstAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.practice.day6hw.*" />
+          <option name="PATTERN" value="io.loop.test.practice.day7hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.practice.day6hw" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day6hw.Day6_Task2" />
-      <option name="METHOD_NAME" value="handleFirstAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day6_Task2.handleIframes" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.practice.day6hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.practice.day6hw" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day6hw.Day6_Task2" />
-      <option name="METHOD_NAME" value="handleIframes" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenOnSecondScreen" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.base" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.base.OpenOnSecondScreen" />
+      <option name="PACKAGE_NAME" value="io.loop.test.practice.day7hw" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day7hw.Task3" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -189,17 +168,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_iframe.nestedFrame" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3.multipleWindowsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="PATTERN" value="io.loop.test.practice.day7hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T2_iframe" />
-      <option name="METHOD_NAME" value="nestedFrame" />
+      <option name="PACKAGE_NAME" value="io.loop.test.practice.day7hw" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day7hw.Task3" />
+      <option name="METHOD_NAME" value="multipleWindowsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.practice.day7hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.practice.day7hw" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day7hw.Task4" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4.test_webTablePizzaOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.practice.day7hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.practice.day7hw" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day7hw.Task4" />
+      <option name="METHOD_NAME" value="test_webTablePizzaOrder" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -209,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day6_Task2" />
-        <item itemvalue="TestNG.Day6_Task2.handleIframes" />
-        <item itemvalue="TestNG.Day6_Task2.handleFirstAlert" />
-        <item itemvalue="TestNG.OpenOnSecondScreen" />
-        <item itemvalue="TestNG.T2_iframe.nestedFrame" />
+        <item itemvalue="TestNG.Task4.test_webTablePizzaOrder" />
+        <item itemvalue="TestNG.Task4" />
+        <item itemvalue="TestNG.T3_webTables" />
+        <item itemvalue="TestNG.Task3" />
+        <item itemvalue="TestNG.Task3.multipleWindowsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +242,7 @@
       <workItem from="1717940620850" duration="6414000" />
       <workItem from="1718319634898" duration="421000" />
       <workItem from="1718498769891" duration="1001000" />
+      <workItem from="1720359563359" duration="6200000" />
     </task>
     <task id="LOCAL-00001" summary="my 1st commit to new repo">
       <option name="closed" value="true" />
@@ -301,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719773045845</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="day6+hw">
+      <option name="closed" value="true" />
+      <created>1720359653039</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720359653039</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +337,7 @@
     <MESSAGE value="locators and others (Day 3)" />
     <MESSAGE value="xpath (Day 4)" />
     <MESSAGE value="day6" />
-    <option name="LAST_COMMIT_MESSAGE" value="day6" />
+    <MESSAGE value="day6+hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6+hw" />
   </component>
 </project>
