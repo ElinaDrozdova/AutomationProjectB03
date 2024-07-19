@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e33333-bbeb-4b6c-94ee-a5db59569893" name="Changes" comment="day7+hw">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T000_singleton_practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_singleton_pattern_example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_test_config_reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T0_pizza_order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T1_google_search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T2_java_faker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T3_upload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day8_task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/PizzaOrderWebTablesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoopPracticeDragDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T1_actions_hoverover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T2_drag_drop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T3_JSExecutor_scroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T4_drag_and_drop_POM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day_05" />
+        <entry key="$PROJECT_DIR$" value="day_8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,12 +89,14 @@
     &quot;TestNG.Day6_Task2.handleIframes.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.OpenOnSecondScreen.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T0_iframe_practice.left.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_actions_hoverover.google_action_hover.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_alerts.confirmationAlert.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_alerts.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_alerts.promptAlert.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_google_search.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_testNG_intro.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_testNG_intro.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_drag_drop.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_iframe.nestedFrame.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_java_faker.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_testNG_with_selenium.executor&quot;: &quot;Run&quot;,
@@ -138,17 +132,35 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.day8_task">
-    <configuration name="T1_google_search" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.T2_drag_drop">
+    <configuration name="T1_actions_hoverover.google_action_hover" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="PATTERN" value="io.loop.test.day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T1_google_search" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T1_actions_hoverover" />
+      <option name="METHOD_NAME" value="google_action_hover" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2_drag_drop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T2_drag_drop" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -166,23 +178,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.loop.test.day8" />
       <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T2_java_faker" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_simple_dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T3_simple_dropdown" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -227,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T2_drag_drop" />
+        <item itemvalue="TestNG.T1_actions_hoverover.google_action_hover" />
         <item itemvalue="TestNG.day8_task" />
         <item itemvalue="TestNG.day8_task.filling_registration_form" />
         <item itemvalue="TestNG.T2_java_faker" />
-        <item itemvalue="TestNG.T1_google_search" />
-        <item itemvalue="TestNG.T3_simple_dropdown" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +336,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720728838345</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="day7+hw">
+      <option name="closed" value="true" />
+      <created>1721345612244</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721345612244</updated>
+    </task>
+    <task id="LOCAL-00013" summary="day7+hw">
+      <option name="closed" value="true" />
+      <created>1721345636581</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721345636582</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
